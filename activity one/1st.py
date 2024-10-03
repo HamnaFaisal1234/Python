@@ -4,4 +4,4 @@ a=4
 print(type(a))
 print("this is a type of string")
 b="hamna"
-print(type(b))
+print(type(b)) 
