@@ -1,0 +1,13 @@
+list1 =["Mango", "apple", 1, 2]
+print (list1)
+list1.append("hamna")
+print(list1)
+list1.insert(2,"Faisal")
+print(list1)
+list1.remove("apple")
+print(list1)
+list1.pop(2)
+print(list1)
+print(list1[1:4])
+print(list1[-3:-1])
+print(len(list1))
