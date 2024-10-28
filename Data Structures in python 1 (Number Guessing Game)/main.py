@@ -6,7 +6,7 @@ game_state = {
     "attempts": 0,
     "guess_history": []  # List to store all guesses
     
-}
+} 
 
 # Instructions for the player
 print("Welcome to the Number Guessing Game!")
