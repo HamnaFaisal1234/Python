@@ -1,0 +1,10 @@
+file = open("myfile.txt", 'r')
+print(file.read())
+file.close()
+file = open("myfile.txt", 'r')
+print(file.read(16))
+file.close()
+file = open("myfile.txt", 'a')
+file.write('My favorite subject is maths')
+file.close()
+
