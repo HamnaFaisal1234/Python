@@ -1,22 +1,17 @@
-def calculate_time_complexity(code_snippet):
+def myfunction(n):
     
-    if "for" in code_snippet or "while" in code_snippet:
-        
-        if code_snippet.count("for") > 1 or code_snippet.count("while") > 1:
-            complexity = "O(n^2)"  
-        else:
-            complexity = "O(n)"  
-    else:
-        complexity = "O(1)"  
+    if n < 0:
+        print("Please provide a positive integer.")
+        return
 
-    print(f"The estimated time complexity is: {complexity}")
-
-
-
-example_code = """
-for i in range(n):
-    print(i)
-"""
+    for x in range(0, n+1):  
+        print("First loop")
+        j = 1
+        while j <= n+1:  
+            print("Second loop", j)
+            j = j * 2
+            for y in range(0, 100):  
+                print("Third loop")
 
 
-calculate_time_complexity(example_code)
+myfunction(1)
