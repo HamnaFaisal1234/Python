@@ -5,4 +5,4 @@ position = 1
 while bits & 1 == 0:  
         bits = bits >> 1
         position += 1
-print('Position of the first set bit:',position)  
+print('Position of the first set bit:',position)   
